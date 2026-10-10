@@ -10,16 +10,16 @@
 | `claude-desktop-dark.json` | 深色 | `claude-desktop-dark` |
 
 ## 安装
-
-1. 将两个 JSON 放到 OpenChamber 服务器所在机器的主题目录：
+1. 安装anthropic字体：https://github.com/matthieuhuguet/anthropic-fonts
+2. 将两个 JSON 放到 OpenChamber 服务器所在机器的主题目录：
 
    ```
    ~/.config/openchamber/themes/          # Windows: C:\Users\<你>\.config\openchamber\themes\
    ```
 
-2. 应用中打开 **Settings → Appearance → Reload themes**
-3. 在 **Light Theme** / **Dark Theme** 下拉框中分别选择 **Claude Desktop**
-4. 删除主题：下拉框选项旁的垃圾桶按钮（内置主题不可删除）
+3. 应用中打开 **Settings → Appearance → Reload themes**
+4. 在 **Light Theme** / **Dark Theme** 下拉框中分别选择 **Claude Desktop**
+5. 删除主题：下拉框选项旁的垃圾桶按钮（内置主题不可删除）
 
 > 主题文件上限 512 KiB；同一 ID 只保留一个文件；文件格式错误会被跳过且不影响其它主题。
 
