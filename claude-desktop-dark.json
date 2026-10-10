@@ -119,9 +119,9 @@
   },
   "config": {
     "fonts": {
-      "sans": "\"Anthropic Sans\", \"Segoe UI\", \"Microsoft YaHei UI\", system-ui, sans-serif",
-      "mono": "\"Anthropic Mono\", \"Cascadia Code\", Consolas, \"Courier New\", monospace",
-      "heading": "\"Anthropic Serif\", \"Noto Serif CJK SC\", Georgia, \"Times New Roman\", serif"
+      "sans": "\"AnthropicSans Text\", \"Anthropic Sans\", \"Segoe UI\", \"Microsoft YaHei UI\", system-ui, sans-serif",
+      "mono": "\"AnthropicMono\", \"Anthropic Mono\", \"Cascadia Code\", Consolas, \"Courier New\", monospace",
+      "heading": "\"AnthropicSerif Text\", \"Anthropic Serif\", \"Noto Serif CJK SC\", Georgia, \"Times New Roman\", serif"
     },
     "transitions": {
       "fast": "150ms ease",
