@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "id": "claude-desktop-light",
+    "name": "Claude Desktop",
+    "variant": "light",
+    "description": "Warm sand and terracotta light palette inspired by Claude Desktop and the Siyaude SiYuan theme, with Anthropic Sans/Serif/Mono typography.",
+    "author": "gongshiyun",
+    "version": "1.0.0",
+    "tags": [
+      "light",
+      "warm",
+      "sand",
+      "terracotta",
+      "claude"
+    ]
+  },
+  "colors": {
+    "primary": {
+      "base": "#B85430",
+      "foreground": "#FFFAF2",
+      "hover": "#AA4C2B",
+      "active": "#9B452C",
+      "muted": "#B8543080"
+    },
+    "surface": {
+      "background": "#FFFAF2",
+      "foreground": "#3A2E24",
+      "muted": "#F3EBDD",
+      "mutedForeground": "#776450",
+      "elevated": "#F8F0E4",
+      "subtle": "#F6EEE1"
+    },
+    "interactive": {
+      "border": "#56412B2B",
+      "selection": "#B8543021",
+      "borderHover": "#56412B45",
+      "borderFocus": "#B85430",
+      "focusRing": "#B8543059",
+      "cursor": "#33281F"
+    },
+    "status": {
+      "error": "#A94636",
+      "errorForeground": "#FFFAF2",
+      "errorBackground": "#A9463620",
+      "errorBorder": "#A9463650",
+      "warning": "#96651C",
+      "warningForeground": "#FFFAF2",
+      "warningBackground": "#96651C20",
+      "warningBorder": "#96651C50",
+      "success": "#4A7350",
+      "successForeground": "#FFFAF2",
+      "successBackground": "#4A735020",
+      "successBorder": "#4A735050",
+      "info": "#3B6A89",
+      "infoForeground": "#FFFAF2",
+      "infoBackground": "#3B6A8920",
+      "infoBorder": "#3B6A8950"
+    },
+    "pr": {
+      "merged": "#785B91"
+    },
+    "syntax": {
+      "base": {
+        "background": "#F8F1E6",
+        "foreground": "#3A2E24",
+        "comment": "#7B6954",
+        "keyword": "#9B452C",
+        "string": "#4A7350",
+        "number": "#785B91",
+        "function": "#3B6A89",
+        "variable": "#4A3A2E",
+        "type": "#8F5F1A",
+        "operator": "#A94636"
+      },
+      "tokens": {
+        "commentDoc": "#A08D77",
+        "method": "#4A7350",
+        "variableProperty": "#3B6A89",
+        "variableGlobal": "#7E4965",
+        "jsxTag": "#7E4965",
+        "tagAttribute": "#8F5F1A",
+        "decorator": "#8F5F1A",
+        "url": "#3B6A89"
+      },
+      "highlights": {
+        "diffAdded": "#4A7350",
+        "diffRemoved": "#A94636",
+        "diffModified": "#3B6A89"
+      }
+    },
+    "chat": {
+      "userMessageBackground": "#F6E7D8",
+      "divider": "#E8DCC8",
+      "background": "#FFFAF2"
+    },
+    "markdown": {
+      "link": "#3B6A89",
+      "linkHover": "#2F5A76",
+      "inlineCode": "#9B452C",
+      "inlineCodeBackground": "#F8F1E6",
+      "blockquote": "#6E5D4E",
+      "blockquoteBorder": "#E0D2BE",
+      "listMarker": "#96651C99",
+      "bold": "#2A2018",
+      "italic": "#4A3B30",
+      "strikethrough": "#8B7A6A"
+    },
+    "tools": {
+      "border": "#56412B26",
+      "icon": "#8B7A6A",
+      "title": "#3A2E24",
+      "description": "#8B7A6A",
+      "edit": {
+        "addedBackground": "#4A735022",
+        "removedBackground": "#A9463622",
+        "modifiedBackground": "#3B6A8922",
+        "lineNumber": "#8B7A6A"
+      }
+    }
+  },
+  "config": {
+    "fonts": {
+      "sans": "\"Anthropic Sans\", \"Segoe UI\", \"Microsoft YaHei UI\", system-ui, sans-serif",
+      "mono": "\"Anthropic Mono\", \"Cascadia Code\", Consolas, \"Courier New\", monospace",
+      "heading": "\"Anthropic Serif\", \"Noto Serif CJK SC\", Georgia, \"Times New Roman\", serif"
+    },
+    "transitions": {
+      "fast": "150ms ease",
+      "normal": "240ms cubic-bezier(0.2, 0, 0.2, 1)",
+      "slow": "320ms cubic-bezier(0.2, 0, 0.2, 1)"
+    }
+  }
+}
